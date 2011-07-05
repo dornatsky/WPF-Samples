@@ -1,0 +1,1 @@
+These are samples that I use during my WPF tutorial talk. Feel free to take and use them however you like.

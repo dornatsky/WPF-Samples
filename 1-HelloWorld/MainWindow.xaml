@@ -1,0 +1,17 @@
+﻿<Window x:Class="HelloWorld.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <StackPanel>
+            <TextBlock FontSize="40" Foreground="Red">Hello World!</TextBlock>
+            <ComboBox Width="100">
+                <ComboBoxItem>Hello</ComboBoxItem>
+                <ComboBoxItem>World</ComboBoxItem>
+                <ComboBoxItem>!</ComboBoxItem>
+            </ComboBox>
+            <Button Height="76" Width="190" 
+                Margin="0 10 0 0">Press Me</Button>
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,11 @@
+﻿<Window x:Class="Threading.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:toolkit ="clr-namespace:Microsoft.Windows.Controls;assembly=WPFToolkit.Extended"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel>
+        <Button Click="Button_Click">Run</Button>
+        <TextBlock x:Name="text" FontSize="22" Visibility="Collapsed"></TextBlock>
+        <toolkit:BusyIndicator x:Name="busy" Height="30" IsBusy="True" Visibility="Collapsed"/>
+    </StackPanel>
+</Window>
