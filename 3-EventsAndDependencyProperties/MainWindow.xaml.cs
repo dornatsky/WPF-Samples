@@ -36,7 +36,7 @@ namespace EventsAndDependencyProperties
 
         private void outerButton_Click(object sender, RoutedEventArgs e)
         {
-            Trace.WriteLine("intermediate button click");
+            Trace.WriteLine("outer button click");
         }
     }
 }
