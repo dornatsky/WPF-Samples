@@ -78,6 +78,18 @@
 
                 </WrapPanel>
             </TabItem>
+            
+            <TabItem Header="Canvas">
+                <Canvas>
+                    <Button Canvas.Left="30" Canvas.Top="10">
+                        Absolute position
+                    </Button>
+                    
+                    <Button Canvas.Right="30" Canvas.Bottom="10">
+                        Absolute position
+                    </Button>
+                </Canvas>
+            </TabItem>
         </TabControl>
     </Grid>
 </Window>
